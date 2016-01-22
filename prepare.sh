@@ -8,7 +8,6 @@ rm -rf $TARGET_DIR
 
 PROFILE=texlive.profile
 cat > $PROFILE <<END_CAT
-# texlive.profile generated on
 selected_scheme scheme-custom
 TEXDIR $TARGET_DIR
 TEXMFCONFIG $TEXMFSYSCONFIG
